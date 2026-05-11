@@ -1,0 +1,95 @@
+.inter-sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+#titleSection {
+  display: flex;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  font-family: "inter-sans", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 100px 20vw;
+  gap: 1000px;
+}
+
+.til {
+  font-weight: 500;
+}
+
+
+#navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  align-items: center;
+  float: center;
+}
+
+#navBar p {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 100px;
+}
+
+#navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+
+#navBar li {
+  float: center;
+  padding: 10px;
+}
+
+#navBar li a {
+  display: block;
+  padding-left: 100px;
+  padding-right: 120px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #2a83ff;
+  color: rgb(255, 255, 255);
+  transition: font-size 0.1s;
+  border-radius: 50px;
+}
+
+#navBar li:hover {
+  font-size: 30px;
+}
+
+.aboutRam {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  width: 500px;
+  place-items: center;
+  margin: 0 auto;
+  font-family: "inter-sans", Helvetica, sans-serif;
+  background-color: lightslategray;
+  border-radius: 50px;
+  margin-top: 50px;
+  transition: font-size 0.5s;
+}
+
+
+#ramThakkarMainImage {
+  border-radius: 50px;
+}
