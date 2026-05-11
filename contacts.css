@@ -26,6 +26,9 @@ body {
   font-weight: 500;
 }
 
+img {
+  width: 200px;
+}
 
 #navBar {
   position: fixed;
@@ -89,6 +92,13 @@ body {
   transition: font-size 0.5s;
 }
 
+.aboutRam:hover {
+  font-size: large;
+}
+
+#aboutRamImg {
+  border-radius: 25px;
+}
 
 #ramThakkarMainImage {
   border-radius: 50px;
