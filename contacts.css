@@ -77,29 +77,61 @@ img {
   font-size: 30px;
 }
 
-.aboutRam {
+
+#ramThakkarMainImage {
+  border-radius: 50px;
+}
+
+#gmail {
   display: flex;
   align-items: center;
   gap: 20px;
   padding: 50px;
-  width: 500px;
+  width: 300px;
+  place-items: center;
+  margin: 0 auto;
+  font-family: "inter-sans", Helvetica, sans-serif;
+  background-color:aliceblue;
+  border-radius: 50px;
+  margin-top: 50px;
+  transition: font-size 0.5s, background-color 1s;
+}
+
+#gmail:hover {
+  font-size: 40px;
+  background-color:slategray;
+}
+
+#emailInput {
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  width: 250px;
   place-items: center;
   margin: 0 auto;
   font-family: "inter-sans", Helvetica, sans-serif;
   background-color: lightslategray;
   border-radius: 50px;
   margin-top: 50px;
-  transition: font-size 0.5s;
+  transition: font-size 0.5s, background-color 1s;
 }
 
-.aboutRam:hover {
-  font-size: large;
+#emailInput input {
+  place-items: center;
+  margin: 0 auto;
+  font-family: "inter-sans", Helvetica, sans-serif;
+  font-size:large;
+  margin-top: 50px; 
+  transition: font-size 0.5s, background-color 1s;
 }
 
-#aboutRamImg {
+#emailInput button {
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "inter-sans", Helvetica, sans-serif;
   border-radius: 25px;
-}
-
-#ramThakkarMainImage {
-  border-radius: 50px;
+  margin-top: 50px;
+  transition: font-size 0.5s, background-color 1s;
 }
